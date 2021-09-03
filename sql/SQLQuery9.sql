@@ -1,0 +1,1 @@
+DELETE FROM DEPARTMENT WHERE DepartmentName='Finance';
