@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+          background: #0694EC;
+          margin: 3px;
+          width: 80px;
+          height: 100px;
+          float: left;
+        }
+    </style>
+    <script src="jquery.js"></script>
+</head>
+<body> 
+    <button class="btn1">Slide down</button>
+    <button class="btn2">Slide up</button>
+    <br><br>
+     <div><p>Hai</p></div>
+     <div><p>Hello</p></div>
+     <div><p>Hi</p></div>
+     <script type="text/javascript" language="javascript">
+        $(document).ready(function(){
+        $(".btn1").click(function(){
+          $("div").slideDown(3000);
+    });
+       $(".btn2").click(function(){
+          $("div").slideUp(3000);
+      });
+    });
+    </script>
+    
+
+   </body>
+</html>
+

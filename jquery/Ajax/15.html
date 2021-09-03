@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery getDemo</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.get("ert1.html", function(data){
+            $(".res").html(data);
+        });
+    });
+});
+</script>
+</head>
+<body>
+    <div class="res">
+        <h2>Content will be replaced </h2>
+    </div>
+    <button type="button">Load Date and Time</button>
+</body>
+</html>

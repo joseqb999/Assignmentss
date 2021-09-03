@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery ajaxComplete() event method</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("button").click(function(event){
+        $("#msg").load("etr1.html");  
+      });
+      $(document).ajaxComplete(function(){
+        $("#complete").text("Request Complete.");
+      });
+    });
+  </script>
+</head>
+<body>
+  <p id="complete">Event will occur when clicked</p>
+  <button>Click here to call ajaxComplete</button>
+  <br /><br />
+  <div id="msg" >First paragraph start here</div>
+</body>
+</html>

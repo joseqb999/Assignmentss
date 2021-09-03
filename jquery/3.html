@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que3</title>
+</head>
+
+<body>
+    <div id = "school">School
+    <ul id = "classA"> Class A
+        <li>Student A1</li>
+        <li>Student A2</li>
+        <li>Student A3</li>
+        <li>Student A4</li>
+        <li>Student A5</li>
+    </ul>
+    <ul id ="Class B">Class B
+        <li>Student B1</li>
+        <li>Student B2</li>
+        <li>Student B3</li>
+        <li>Student B4</li>
+        <li id ="b5">Student B5</li>
+    </ul>
+</div>
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        var res = $("#b5").parent();
+        console.log(res);
+    });
+</script>
+
+
+</body>
+</html>
