@@ -1,0 +1,37 @@
+body{
+    font-size: 15px;
+  
+}
+li
+{
+    display: inline-block;
+    padding: 25px 50px;
+}
+nav
+{
+    background-color: lightblue;
+}
+nav ul
+{
+    display: inline-block;
+    text-align: right;
+}
+
+nav div
+{
+    display: inline-flex;
+    float: right;
+    margin-left: 853px;
+}nav p{
+    margin-top: 28px;
+}
+
+footer{
+    background-color: lightblue;
+    height: 75px;
+    width: 100%;
+    margin-top: 520px;
+}
+.h2{
+    padding-top: 24px;
+}
