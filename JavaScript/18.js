@@ -1,0 +1,1 @@
+document.getElementById("id02").textContent=""
