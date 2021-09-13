@@ -1,0 +1,14 @@
+D:\Training\C#\q22\q22\bin\Debug\netcoreapp3.1\q22.exe
+D:\Training\C#\q22\q22\bin\Debug\netcoreapp3.1\q22.deps.json
+D:\Training\C#\q22\q22\bin\Debug\netcoreapp3.1\q22.runtimeconfig.json
+D:\Training\C#\q22\q22\bin\Debug\netcoreapp3.1\q22.runtimeconfig.dev.json
+D:\Training\C#\q22\q22\bin\Debug\netcoreapp3.1\q22.dll
+D:\Training\C#\q22\q22\bin\Debug\netcoreapp3.1\q22.pdb
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.csproj.AssemblyReference.cache
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.AssemblyInfoInputs.cache
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.AssemblyInfo.cs
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.csproj.CoreCompileInputs.cache
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.dll
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.pdb
+D:\Training\C#\q22\q22\obj\Debug\netcoreapp3.1\q22.genruntimeconfig.cache
